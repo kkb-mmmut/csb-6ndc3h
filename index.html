@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <div id="container">
+      <input
+        placeholder="Add a task"
+        class="add-task"
+        id="add"
+        data-helloWord="asdasdas"
+      />
+      <span id="total-tasks"
+        >Total tasks: <span id="tasks-counter">0</span></span
+      >
+      <div id="list-item">
+        <ul id="list">
+          <!-- <li>
+          <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+          <label for="task1">Buy groceries</label>
+          <img src="bin.svg" class="delete" data-id="12" />
+        </li> -->
+        </ul>
+      </div>
+      <span id="remaining-tasks"
+        >Remaining tasks: <span id="remaining-tasks-counter">0</span></span
+      >
+      <span id="done-tasks"
+        >Completed tasks: <span id="done-tasks-counter">0</span></span
+      >
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
